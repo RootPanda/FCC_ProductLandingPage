@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Product Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Panda Products</h1>
+        <img src="https://c402277.ssl.cf1.rackcdn.com/photos/18315/images/hero_small/Medium_WW230176.jpg?1576168323"
+            alt="Panda Products">
+        <nav id="nav-bar">
+            <a class="nav-link" href="#header">Home</a>
+            <a class="nav-link" href="#video">About</a>
+            <a class="nav-link" href="#form">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div id="about">
+            <h2>About</h2>
+            <video id="video" controls>
+                <source src="panda.mp4" type="video/mp4">
+                Your browser doesn't support HTML5 video.
+            </video>
+        </div>
+        <div id="contact">
+            <h2>Contact</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="Your email here" required>
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer id="footer">
+        Copyright ACL 2020.
+    </footer>
+</body>
+
+</html>
